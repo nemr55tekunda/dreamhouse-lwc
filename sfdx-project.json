@@ -22,6 +22,14 @@
             "default": false,
             "package": "unlocked-pack-1",
             "versionDescription": ""
+        },
+        {
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "path": "force-app",
+            "default": false,
+            "package": "dreamhouse-project",
+            "versionDescription": ""
         }
     ],
     "namespace": "",
@@ -31,6 +39,7 @@
         "DreamhouseLWC@61.0.0-4": "04tKY000000LP3aYAG",
         "DreamhouseLWC@64.0.0-3": "04tKY000000MF7uYAG",
         "dreamhouse": "0HoP50000000f3BKAQ",
-        "unlocked-pack-1": "0Hod100000005nhCAA"
+        "unlocked-pack-1": "0Hod100000005nhCAA",
+        "dreamhouse-project": "0HogK0000000qufSAA"
     }
 }
