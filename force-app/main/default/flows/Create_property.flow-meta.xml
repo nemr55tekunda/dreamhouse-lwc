@@ -3,8 +3,8 @@
     <actionCalls>
         <name>geocode_address</name>
         <label>Geocode Address</label>
-        <locationX>0</locationX>
-        <locationY>0</locationY>
+        <locationX>666</locationX>
+        <locationY>398</locationY>
         <actionName>GeocodingService</actionName>
         <actionType>apex</actionType>
         <connector>
@@ -47,13 +47,13 @@
         <nameSegment>GeocodingService</nameSegment>
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </actionCalls>
-    <apiVersion>64.0</apiVersion>
+    <apiVersion>51.0</apiVersion>
     <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
     <decisions>
         <name>If_content_document_found</name>
         <label>If Content Document found</label>
-        <locationX>0</locationX>
-        <locationY>0</locationY>
+        <locationX>666</locationX>
+        <locationY>998</locationY>
         <defaultConnector>
             <targetReference>navigate_to_record_detail</targetReference>
         </defaultConnector>
@@ -77,8 +77,8 @@
     <decisions>
         <name>if_content_version_found</name>
         <label>If Content Version found</label>
-        <locationX>0</locationX>
-        <locationY>0</locationY>
+        <locationX>314</locationX>
+        <locationY>1238</locationY>
         <defaultConnector>
             <targetReference>navigate_to_record_detail</targetReference>
         </defaultConnector>
@@ -130,8 +130,8 @@
     <recordCreates>
         <name>create_property</name>
         <label>Create Property</label>
-        <locationX>0</locationX>
-        <locationY>0</locationY>
+        <locationX>666</locationX>
+        <locationY>638</locationY>
         <connector>
             <targetReference>upload_picture</targetReference>
         </connector>
@@ -235,8 +235,8 @@
         <description>Retrieve just one of the pictures to be the main one</description>
         <name>get_main_content_document</name>
         <label>Get Main Content Document</label>
-        <locationX>0</locationX>
-        <locationY>0</locationY>
+        <locationX>666</locationX>
+        <locationY>878</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>If_content_document_found</targetReference>
@@ -259,8 +259,8 @@
     <recordLookups>
         <name>get_main_content_version</name>
         <label>Get Main Content Version</label>
-        <locationX>0</locationX>
-        <locationY>0</locationY>
+        <locationX>314</locationX>
+        <locationY>1118</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>if_content_version_found</targetReference>
@@ -290,8 +290,8 @@
     <recordUpdates>
         <name>set_main_picture</name>
         <label>Set Property Main Picture &amp; Thumbnail</label>
-        <locationX>0</locationX>
-        <locationY>0</locationY>
+        <locationX>50</locationX>
+        <locationY>1358</locationY>
         <connector>
             <targetReference>navigate_to_record_detail</targetReference>
         </connector>
@@ -323,8 +323,8 @@
     <screens>
         <name>address</name>
         <label>Address</label>
-        <locationX>0</locationX>
-        <locationY>0</locationY>
+        <locationX>666</locationX>
+        <locationY>278</locationY>
         <allowBack>true</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>true</allowPause>
@@ -353,8 +353,8 @@
     <screens>
         <name>Error2</name>
         <label>Error</label>
-        <locationX>0</locationX>
-        <locationY>0</locationY>
+        <locationX>1194</locationX>
+        <locationY>998</locationY>
         <allowBack>true</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>true</allowPause>
@@ -377,8 +377,8 @@
     <screens>
         <name>Error3</name>
         <label>Error</label>
-        <locationX>0</locationX>
-        <locationY>0</locationY>
+        <locationX>754</locationX>
+        <locationY>1238</locationY>
         <allowBack>true</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>true</allowPause>
@@ -401,8 +401,8 @@
     <screens>
         <name>Error4</name>
         <label>Error</label>
-        <locationX>0</locationX>
-        <locationY>0</locationY>
+        <locationX>314</locationX>
+        <locationY>1478</locationY>
         <allowBack>false</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>true</allowPause>
@@ -425,8 +425,8 @@
     <screens>
         <name>Error5</name>
         <label>Error</label>
-        <locationX>0</locationX>
-        <locationY>0</locationY>
+        <locationX>1722</locationX>
+        <locationY>518</locationY>
         <allowBack>true</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>true</allowPause>
@@ -449,8 +449,8 @@
     <screens>
         <name>error_creating_records</name>
         <label>Error</label>
-        <locationX>0</locationX>
-        <locationY>0</locationY>
+        <locationX>1458</locationX>
+        <locationY>758</locationY>
         <allowBack>false</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>true</allowPause>
@@ -473,8 +473,8 @@
     <screens>
         <name>navigate_to_record_detail</name>
         <label>Navigate to Record</label>
-        <locationX>0</locationX>
-        <locationY>0</locationY>
+        <locationX>666</locationX>
+        <locationY>1934</locationY>
         <allowBack>false</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>true</allowPause>
@@ -506,8 +506,8 @@
     <screens>
         <name>new_property</name>
         <label>New Property</label>
-        <locationX>0</locationX>
-        <locationY>0</locationY>
+        <locationX>666</locationX>
+        <locationY>158</locationY>
         <allowBack>true</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>true</allowPause>
@@ -603,8 +603,8 @@
     <screens>
         <name>property_details</name>
         <label>Property Details</label>
-        <locationX>0</locationX>
-        <locationY>0</locationY>
+        <locationX>666</locationX>
+        <locationY>518</locationY>
         <allowBack>true</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>true</allowPause>
@@ -670,8 +670,8 @@
     <screens>
         <name>upload_picture</name>
         <label>Upload Picture</label>
-        <locationX>0</locationX>
-        <locationY>0</locationY>
+        <locationX>666</locationX>
+        <locationY>758</locationY>
         <allowBack>false</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>true</allowPause>
@@ -722,7 +722,7 @@
         <showHeader>true</showHeader>
     </screens>
     <start>
-        <locationX>0</locationX>
+        <locationX>540</locationX>
         <locationY>0</locationY>
         <connector>
             <targetReference>new_property</targetReference>
