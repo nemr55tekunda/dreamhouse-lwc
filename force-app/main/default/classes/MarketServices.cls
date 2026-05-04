@@ -15,6 +15,8 @@ public inherited sharing class MarketServices {
             FROM Space__c
             WHERE Market__c = :recordId
             WITH SECURITY_ENFORCED
+
+
         ];
     }
 }
