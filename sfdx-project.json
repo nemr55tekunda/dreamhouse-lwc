@@ -46,6 +46,14 @@
             "default": false,
             "package": "mngd-pack",
             "versionDescription": ""
+        },
+        {
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "path": "force-app",
+            "default": false,
+            "package": "pack-not-merged",
+            "versionDescription": ""
         }
     ],
     "namespace": "Tekunda",
@@ -58,6 +66,7 @@
         "unlocked-pack-1": "0Hod100000005nhCAA",
         "dreamhouse-project": "0HogK0000000qufSAA",
         "package1": "0HogK0000000ws1SAA",
-        "mngd-pack": "0HoP50000000lIHKAY"
+        "mngd-pack": "0HoP50000000lIHKAY",
+        "pack-not-merged": "0HoP50000000o3FKAQ"
     }
 }
