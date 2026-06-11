@@ -462,7 +462,7 @@
             <targetReference>CustomerDetails</targetReference>
         </connector>
     </start>
-    <status>Active</status>
+    <status>Obsolete</status>
     <variables>
         <name>varMarket</name>
         <dataType>String</dataType>
