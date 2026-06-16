@@ -46,6 +46,14 @@
             "default": false,
             "package": "test-delete-release-branch",
             "versionDescription": ""
+        },
+        {
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "path": "force-app",
+            "default": false,
+            "package": "package-creation",
+            "versionDescription": ""
         }
     ],
     "namespace": "",
@@ -58,6 +66,7 @@
         "unlocked-pack-1": "0Hod100000005nhCAA",
         "dreamhouse-project": "0HogK0000000qufSAA",
         "package1": "0HogK0000000ws1SAA",
-        "test-delete-release-branch": "0HoP50000000o4rKAA"
+        "test-delete-release-branch": "0HoP50000000o4rKAA",
+        "package-creation": "0HoP50000000ow5KAA"
     }
 }
