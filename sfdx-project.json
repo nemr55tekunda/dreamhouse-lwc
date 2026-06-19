@@ -62,6 +62,14 @@
             "default": false,
             "package": "credits-package",
             "versionDescription": ""
+        },
+        {
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "path": "force-app",
+            "default": false,
+            "package": "fffapp",
+            "versionDescription": ""
         }
     ],
     "namespace": "",
@@ -76,6 +84,7 @@
         "package1": "0HogK0000000ws1SAA",
         "test-delete-release-branch": "0HoP50000000o4rKAA",
         "package-creation": "0HoP50000000ow5KAA",
-        "credits-package": "0HoP50000000p49KAA"
+        "credits-package": "0HoP50000000p49KAA",
+        "fffapp": "0HoP50000000pNVKAY"
     }
 }
