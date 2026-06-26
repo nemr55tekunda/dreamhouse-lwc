@@ -1,90 +1,10 @@
 {
     "packageDirectories": [
         {
-            "path": "force-app",
-            "default": true,
-            "package": "DreamhouseLWC",
-            "versionName": "Summer '25",
-            "versionNumber": "64.0.0.NEXT"
-        },
-        {
-            "versionName": "ver 0.1",
-            "versionNumber": "0.1.0.NEXT",
-            "path": "force-app",
-            "default": false,
-            "package": "dreamhouse",
-            "versionDescription": ""
-        },
-        {
-            "versionName": "ver 0.1",
-            "versionNumber": "0.1.0.NEXT",
             "path": "force-app/main/default",
-            "default": false,
-            "package": "unlocked-pack-1",
-            "versionDescription": ""
-        },
-        {
-            "versionName": "ver 0.1",
-            "versionNumber": "0.1.0.NEXT",
-            "path": "force-app",
-            "default": false,
-            "package": "dreamhouse-project",
-            "versionDescription": ""
-        },
-        {
-            "versionName": "ver 0.1",
-            "versionNumber": "0.1.0.NEXT",
-            "path": "force-app",
-            "default": false,
-            "package": "package1",
-            "versionDescription": ""
-        },
-        {
-            "versionName": "ver 0.1",
-            "versionNumber": "0.1.0.NEXT",
-            "path": "force-app",
-            "default": false,
-            "package": "test-delete-release-branch",
-            "versionDescription": ""
-        },
-        {
-            "versionName": "ver 0.1",
-            "versionNumber": "0.1.0.NEXT",
-            "path": "force-app",
-            "default": false,
-            "package": "package-creation",
-            "versionDescription": ""
-        },
-        {
-            "versionName": "ver 0.1",
-            "versionNumber": "0.1.0.NEXT",
-            "path": "force-app/main/default/objects/Account",
-            "default": false,
-            "package": "credits-package",
-            "versionDescription": ""
-        },
-        {
-            "versionName": "ver 0.1",
-            "versionNumber": "0.1.0.NEXT",
-            "path": "force-app",
-            "default": false,
-            "package": "fffapp",
-            "versionDescription": ""
+            "default": true
         }
     ],
     "namespace": "",
-    "sourceApiVersion": "64.0",
-    "packageAliases": {
-        "DreamhouseLWC": "0Ho3h000000PBghCAG",
-        "DreamhouseLWC@61.0.0-4": "04tKY000000LP3aYAG",
-        "DreamhouseLWC@64.0.0-3": "04tKY000000MF7uYAG",
-        "dreamhouse": "0HoP50000000f3BKAQ",
-        "unlocked-pack-1": "0Hod100000005nhCAA",
-        "dreamhouse-project": "0HogK0000000qufSAA",
-        "package1": "0HogK0000000ws1SAA",
-        "test-delete-release-branch": "0HoP50000000o4rKAA",
-        "package-creation": "0HoP50000000ow5KAA",
-        "credits-package": "0HoP50000000p49KAA",
-        "fffapp": "0HoP50000000pNVKAY"
-    }
+    "sourceApiVersion": "64.0"
 }
